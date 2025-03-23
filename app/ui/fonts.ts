@@ -1,4 +1,4 @@
-import { Lato, Montserrat }  from 'next/font/google';
+import { Lato, Montserrat, Lusitana }  from 'next/font/google';
 
 export const font = Lato({
   subsets: ['latin'],
@@ -7,9 +7,11 @@ export const font = Lato({
   fallback: ['Inter', 'sans-serif'],
 });
 
-export const lusitana = Montserrat({
+export const lusitana = Lusitana({
   subsets: ['latin'],
   weight: ['400', '700'],
   display: 'swap',
   fallback: ['Inter', 'sans-serif'],
 });
+
+

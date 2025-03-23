@@ -1,6 +1,6 @@
 import { Montserrat } from "next/font/google";
 import "./ui/global.css";
-import { font } from "./ui/font";
+import { font } from "./ui/fonts";
 export default function RootLayout({
   children,
 }: {
